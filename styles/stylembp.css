@@ -1,0 +1,159 @@
+.container{
+  display:inline-block;
+  position:relative;
+  padding: 0px;
+  font-family: 'Arial';
+  background-color: rgb(122, 120, 120);
+  width: 1350px;
+  height: 600px;
+}
+
+.container a{
+position: absolute;
+bottom:4em;
+right:30em;
+width: 100px;
+background-color: rgb(6, 129, 251);
+border-radius:1.5em;
+color:white;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+text-align: center;
+padding:1em 1.5em;
+}
+#bienvenida a, #cvitae, #formacad a, #cvitae1, #ocursem a, #cvitae2, #experlab a, #cvitae3, #cvitae4{
+  position: relative;
+  bottom:1em;
+  width: 100px;
+  background-color: rgb(79, 82, 85);
+  border-radius:1.5em;
+  color:white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding:1em 1.5em;
+}
+
+#formacad, #bienvenida, #ocursem, #experlab, #referen{
+  font-family: 'Arial';
+  padding: 0px;
+  width: 1350px;
+  text-align: center;
+  font-weight: bolder;
+  display: inline-block;
+}
+
+#bienvenida{
+  background-color: rgb(6, 129, 251);
+  height: 580px;
+  font-size: 16px;
+}
+
+#formacad{
+  background-color: rgb(224, 234, 243);
+  height: 540px;
+  font-size: 20px;
+}
+
+#ocursem{
+  background-color: rgb(241, 221, 107);
+  height: 430px;
+  font-size: 20px;
+}
+
+#experlab{
+  background-color: rgb(161, 161, 161);
+  height: 2050px;
+  font-size: 20px;
+}
+
+#referen{
+  background-color: rgb(64, 161, 251);
+  height: 780px;
+  font-size: 20px;
+}
+
+#bienvenida a, #formacad a, #ocursem a, #experlab a{
+  right: -600px;
+}
+
+#bienvenida #cvitae, #formacad #cvitae1, #ocursem #cvitae2, #experlab #cvitae3{
+  right: 600px;
+}
+
+#referen #cvitae4{
+  right: 500px;
+}
+
+#formacadem, #referencias{
+   text-align: center;
+ }
+
+img{
+    width: 1350px;     
+    height: 580px;
+}
+.Leon2{
+   display:inline-block;
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   top: 200px;
+   left:180px;
+}
+
+.Fotoperfil{
+  display:inline-block;
+  position: relative;
+  width: 180px;
+  height: 200px;
+  top: 5px;
+  left:0px;
+}
+
+ #bienvenida #datper, #formacad #formacadem{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+ #bienvenida #datper{
+  color:white;
+ }
+ 
+ #formacad #formacadem, #referen #referencias{
+  color:black;
+ }
+
+ #ocursemin{
+  font-size: 19px;
+ }
+
+ p strong{
+   font-size: 30px;
+ }
+
+ h1{
+   display:inline-block;
+   position: absolute;
+   color:white;
+   font-size: 54px;
+   font-family: Arial, Helvetica, sans-serif;
+   top: 180px;
+   left: 300px;
+ }
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.fadeOut {
+  -webkit-animation: 2.5s fadeOut 8;
+  animation-name: fadeOut;
+}
